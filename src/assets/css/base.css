@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.hide{
+    display: none;
+}
+.fixedHeader-homeTop{
+    position: absolute;
+    top:0px;
+    width: 100%;
+    z-index: 999;
+}
+.fixedHeader{
+    position: fixed;
+    top:0px;
+    width: 100%;
+    z-index: 999;
+    background: #fff;
+    border-bottom: solid 1px #e6e6e6;
+}
